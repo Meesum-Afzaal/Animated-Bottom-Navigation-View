@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_nav_view">
+
+    </androidx.fragment.app.FragmentContainerView>
+
+    <LinearLayout
+        android:id="@+id/bottom_nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="25dp"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:background="@color/white2"
+        android:layout_alignParentBottom="true"
+        tools:targetApi="lollipop"
+        >
+        <LinearLayout
+            android:id="@+id/wallet"
+            android:background="@drawable/round_back_wallet"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/wallet_image"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/wallet_selected">
+
+            </ImageView>
+            <TextView
+                android:id="@+id/wallet_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wallet"
+                android:textColor="@color/Wallet"
+                android:layout_marginStart="10dp"
+                android:textSize="16sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/swap"
+            android:background="@color/Tranparent"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/swap_image"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/swap">
+
+            </ImageView>
+            <TextView
+                android:id="@+id/swap_text"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Swap"
+                android:textColor="@color/Swap"
+                android:layout_marginStart="10dp"
+                android:textSize="16sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/notifications"
+            android:background="@color/Tranparent"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/notifications_image"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/notifications">
+
+            </ImageView>
+            <TextView
+                android:id="@+id/notifications_text"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notifications"
+                android:textColor="@color/Notifications"
+                android:layout_marginStart="10dp"
+                android:textSize="16sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/profile"
+            android:background="@color/Tranparent"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/profile">
+
+            </ImageView>
+            <TextView
+                android:id="@+id/profile_text"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:textColor="@color/Profile"
+                android:layout_marginStart="10dp"
+                android:textSize="16sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
