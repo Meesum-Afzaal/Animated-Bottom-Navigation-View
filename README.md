@@ -9,7 +9,7 @@
 
 **A production-ready Android application showcasing modern UI/UX patterns with fluid animations, fragment-based architecture, and Material Design 3 principles.**
 
-[Features](#-key-features) • [Demo](#-demo) • [Architecture](#-architecture) • [Installation](#-getting-started) • [Documentation](#-documentation) • [Contributing](#-contributing)
+[Features](#-key-features) • [Demo](#-demo) • [Architecture](#-architecture) • [Installation](#-getting-started) 
 
 ---
 
