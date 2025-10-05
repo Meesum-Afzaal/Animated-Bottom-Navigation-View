@@ -5,7 +5,6 @@
 ![Android](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Java](https://img.shields.io/badge/Language-Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![API](https://img.shields.io/badge/API-24%2B-brightgreen?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 ![Build](https://img.shields.io/badge/Build-Passing-success?style=for-the-badge)
 
 **A production-ready Android application showcasing modern UI/UX patterns with fluid animations, fragment-based architecture, and Material Design 3 principles.**
@@ -309,4 +308,4 @@ android {
 ### **Meesum Afzaal**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/meesum-afzaal-85ba21355)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Meesum-Afzaal)
