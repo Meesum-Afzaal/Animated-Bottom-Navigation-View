@@ -87,59 +87,6 @@
 
 ## 🏗️ Architecture
 
-### Project Structure
-
-```
-AnimatedBottomNavigationView/
-│
-├── 📱 app/
-│   ├── 🔧 build.gradle.kts              # Modern Gradle configuration
-│   ├── 🛡️ proguard-rules.pro            # Release optimization rules
-│   │
-│   └── 📂 src/
-│       ├── 🎯 main/
-│       │   ├── 📄 AndroidManifest.xml
-│       │   │
-│       │   ├── ☕ java/com/example/animatedbottomnavigationview/
-│       │   │   ├── MainActivity.java           # 🎮 Navigation controller
-│       │   │   ├── WalletFragment.java         # 💰 Wallet screen
-│       │   │   ├── swapFragment.java           # 🔄 Swap screen
-│       │   │   ├── notificationsFragment.java  # 🔔 Notifications screen
-│       │   │   └── profileFragment.java        # 👤 Profile screen
-│       │   │
-│       │   └── 🎨 res/
-│       │       ├── 🖼️ drawable/
-│       │       │   ├── wallet.xml & wallet_selected.xml
-│       │       │   ├── swap.xml & swap_selected.xml
-│       │       │   ├── notifications.xml & notifications_selected.xml
-│       │       │   ├── profile.xml & profile_selected.xml
-│       │       │   └── round_back_*.xml        # Background shapes
-│       │       │
-│       │       ├── 📐 layout/
-│       │       │   ├── activity_main.xml       # Main container
-│       │       │   └── fragment_*.xml          # Screen layouts
-│       │       │
-│       │       ├── 🎨 values/
-│       │       │   ├── colors.xml              # Color palette
-│       │       │   ├── strings.xml             # Text resources
-│       │       │   └── themes.xml              # App theming
-│       │       │
-│       │       └── 📋 xml/
-│       │           ├── backup_rules.xml
-│       │           └── data_extraction_rules.xml
-│       │
-│       ├── 🧪 androidTest/                    # Instrumentation tests
-│       │   └── ExampleInstrumentedTest.java
-│       │
-│       └── ✅ test/                            # Unit tests
-│           └── ExampleUnitTest.java
-│
-├── 🔨 gradle/                                 # Gradle wrapper
-├── ⚙️ build.gradle.kts                        # Root build config
-├── 📝 settings.gradle.kts                     # Module settings
-└── 📖 README.md                               # Documentation
-```
-
 ### Component Interaction Flow
 
 ```mermaid
